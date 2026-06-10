@@ -1,0 +1,14 @@
+<odoo>
+    <record id="payslips_multi_currency" model="ir.ui.view">
+        <field name="name">payslips.multi.currency</field>
+        <field name="model">hr.contract</field>
+        <field name="inherit_id" ref="hr_payroll.hr_contract_form_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='currency_id']" position="replace">
+            </xpath>
+            <xpath expr="//field[@name='structure_type_id']/." position="after">
+                <field name="currency_id" string="Currency"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
