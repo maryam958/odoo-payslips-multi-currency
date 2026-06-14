@@ -42,7 +42,7 @@ This module is useful for companies that:
 
 ## 📷 Screenshot
 
-*(Add screenshot of contract currency field and payslip report here)*
+(https://github.com/maryam958/odoo-payslips-multi-currency/blob/main/contract.png)
 
 ---
 
